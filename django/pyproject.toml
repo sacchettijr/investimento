@@ -1,0 +1,9 @@
+#   ./django/pyproject.toml
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "PROJETO.settings"
+python_files = ["test_*.py"]
+testpaths = [
+    "core",
+    "usuario",
+    "investimento",
+]

@@ -1,0 +1,11 @@
+#   IDE
+.idea/
+.vscode/
+venv/
+
+#   DJANGO
+*.pyc
+__pycache__/
+staticfiles/
+db.sqlite3
+media/

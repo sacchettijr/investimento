@@ -1,0 +1,5 @@
+-r requirements.txt
+factory-boy==3.3.3
+ruff==0.15.21
+pytest==9.1.1
+pytest-django==4.14.0

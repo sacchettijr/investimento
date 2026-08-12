@@ -1,0 +1,24 @@
+{
+    "permissions": {
+        "allow": [
+            "Read",
+            "Write",
+            "Edit",
+            "Glob",
+            "Grep",
+            "LS",
+            "Bash(git *)",
+            "Bash(docker compose *)",
+            "Bash(pytest *)",
+            "Bash(python *)",
+            "Bash(ruff *)",
+            "Bash(uv *)"
+        ],
+        "deny": [
+            "Bash(rm -rf *)",
+            "Bash(sudo *)",
+            "Bash(curl * | sh)",
+            "Bash(wget * | sh)"
+        ]
+    }
+}
